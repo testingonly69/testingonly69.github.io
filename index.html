@@ -14,8 +14,9 @@
   <!-- CSS to control image size and prevent cropping -->
   <style>
     img {
-      width: 100%;      /* Make the image scale responsively */
-      height: auto;     /* Maintain the aspect ratio */
+      width: 100%;       /* Ensure image fills the width */
+      height: auto;      /* Maintain aspect ratio */
+      object-fit: contain; /* Ensure the full image is shown without cropping */
     }
   </style>
 </head>
