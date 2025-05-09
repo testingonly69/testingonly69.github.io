@@ -2,24 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Welcome to My Site</title>
 
   <!-- Open Graph Tags for Facebook -->
+  <meta property="og:title" content="Amazing Product" />
+  <meta property="og:description" content="Check out this amazing product!" />
   <meta property="og:image" content="https://testingonly69.github.io/test.jpg" />
   <meta property="og:url" content="https://c.lazada.com.ph/t/c.1x9CTw" />
   <meta property="og:type" content="website" />
 
-  <!-- CSS to control image size and prevent cropping -->
-  <style>
-    img {
-      width: 100%;       /* Ensure image fills the width */
-      height: auto;      /* Maintain aspect ratio */
-      object-fit: contain; /* Ensure the full image is shown without cropping */
-    }
-  </style>
+  <!-- Meta tag for automatic redirection -->
+  <meta http-equiv="refresh" content="5; url=https://c.lazada.com.ph/t/c.1x9CTw" /> <!-- Redirects after 5 seconds -->
 </head>
 <body>
+  <!-- Image with clickable link to Lazada -->
   <a href="https://c.lazada.com.ph/t/c.1x9CTw">
-    <img src="https://testingonly69.github.io/test.jpg" alt="Product Image" />
+    <img src="https://testingonly69.github.io/test.jpg" alt="Product Image" width="800" height="600" />
   </a>
+
+  <!-- Optional message in case JavaScript is disabled or redirect fails -->
+  <p>If you are not redirected automatically, click <a href="https://c.lazada.com.ph/t/c.1x9CTw">here</a>.</p>
 </body>
 </html>
